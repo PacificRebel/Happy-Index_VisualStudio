@@ -8,34 +8,23 @@ namespace Happy_index_VisualStudio
         {
             Console.WriteLine("On a scale of one to ten, how happy are you?");
 
-            // Create a string variable and get user input from the keyboard and store it in the variable
-           string userInput = Console.ReadLine();
+            int userInput = Convert.ToInt32(Console.ReadLine());
 
-            userInput.Convert.ToInt32
+            if (userInput < 3) 
 
+                Console.WriteLine("That's terrible. Shall we have a coffee?");           
 
-            if (userInput < 3) ;
-            {
-
-                Console.WriteLine("That's terrible. Shall we have a coffee?");
-
-            }
-
-            else if (userInput >= 4 && userInput <= 6) ;
-            {
+            else if (userInput >= 4 && userInput <= 6) 
+            
                 Console.WriteLine("Hmm... we should think on how to improve this!");
-            }
-
-
-            else if (userInput >= 7 && userInput <= 8) ;
-            {
+            
+            else if (userInput >= 7 && userInput <= 8) 
+            
                 Console.WriteLine("Pretty good! :-)");
-            }
-
+            
             else
-            {
+            
                 Console.WriteLine("Great!");
             }
         }
     }
-}
