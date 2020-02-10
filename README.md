@@ -1,4 +1,4 @@
-# Happy-Index_VisualStudio
+## Happy-Index_VisualStudio
 
 Recreating my Happy Index in C# - the very first repo I created on GitHub was this, but in Ruby.  
 
