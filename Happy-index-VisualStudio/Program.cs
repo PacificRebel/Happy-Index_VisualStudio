@@ -10,7 +10,7 @@ namespace Happy_index_VisualStudio
 
             int userInput = Convert.ToInt32(Console.ReadLine());
 
-            if (userInput = 0)
+            if (userInput == 0)
 
                 Console.WriteLine("...That's so sad!! Talk to me.");
 
