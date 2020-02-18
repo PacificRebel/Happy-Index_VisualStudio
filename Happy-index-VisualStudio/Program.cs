@@ -6,7 +6,7 @@ namespace Happy_index_VisualStudio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("On a scale of one to ten, how happy are you?");
+            Console.WriteLine("On a scale of zero to ten, how happy are you?");
 
             int userInput = Convert.ToInt32(Console.ReadLine());
 
