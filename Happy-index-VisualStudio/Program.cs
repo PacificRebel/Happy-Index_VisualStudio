@@ -10,20 +10,24 @@ namespace Happy_index_VisualStudio
 
             int userInput = Convert.ToInt32(Console.ReadLine());
 
-            if (userInput < 3) 
+            if (userInput = 0)
 
-                Console.WriteLine("That's terrible. Shall we have a coffee?");           
+                Console.WriteLine("...That's so sad!! Talk to me.");
 
-            else if (userInput >= 4 && userInput <= 6) 
-            
+            else if (userInput >= 1 && userInput <= 3)
+
+                Console.WriteLine("That's terrible. Shall we have a coffee?");
+
+            else if (userInput >= 4 && userInput <= 6)
+
                 Console.WriteLine("Hmm... we should think on how to improve this!");
-            
-            else if (userInput >= 7 && userInput <= 8) 
-            
+
+            else if (userInput >= 7 && userInput <= 8)
+
                 Console.WriteLine("Pretty good! :-)");
-            
+
             else
-            
+
                 Console.WriteLine("Great!");
             }
         }

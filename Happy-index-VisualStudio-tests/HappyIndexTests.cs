@@ -1,18 +1,24 @@
+using Happy_index_VisualStudio;
 using NUnit.Framework;
 
 namespace Happy_index_VisualStudio_tests
 {
-    public class Tests
+    public class HappyIndexTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
+        //[SetUp]
+        //public void Setup()
+        //{
+        //}
 
         [Test]
-        public void Test1()
+        public void InputOfOne_ReturnsTrue()
         {
-            Assert.Pass();
+
+            var rating = new Rating();
+
+            int result = rating.
+
+            Assert.IsTrue(rating);
         }
     }
 }
